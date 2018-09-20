@@ -21,10 +21,24 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	I can make a new branch whenever I want to try to add an experimental feature
+	or for example to make a new localization.The branches allow me to make 
+	my official program be unchanged.   
+
 How do the diagrams help you visualize the branch structure?
+	
+	When I draw a diagram I can better understand a structure of the branch,
+	since I see the tree structure more precisely because when I'm running 
+	git log --graph I can see only two branches of the tree from my expirience.  	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	Changes of both branches will be combined.This allows us to automaticly
+	add new features without a need for type them.We represent them this way,
+	with a single parent for both of the branches, because the new state is a 
+	combination of the states of the previous commits.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	I think that it's pretty convinient that git can automaticly merge two branches,
+	You don't need pay your attention or waste your time when there is no conflicts,
+	i.e. simple cases.So, I can benefit from it saving my time. 
